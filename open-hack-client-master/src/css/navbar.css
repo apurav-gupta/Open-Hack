@@ -1,0 +1,28 @@
+.navbar a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-home {
+  color: white;
+  font-size: 300%;
+}
+
+.login {
+  color: white;
+  margin-left: 80%;
+  font-size: 150%;
+}
+
+.dropdown-navbar {
+  margin-left: 70%;
+}
+
+.drop-user {
+  color: white;
+}
+
+.item a:hover {
+  color: black;
+  background-color: rgb(65, 191, 250);
+}

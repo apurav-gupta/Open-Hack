@@ -1,0 +1,80 @@
+.hack-home {
+  background: url("../images/home.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vw;
+}
+
+h1 {
+  color: white;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.heading {
+  color: white;
+  margin-left: 35%;
+  font-size: 120%;
+}
+
+span {
+  margin-left: 15%;
+}
+
+.search {
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 2%;
+}
+
+.search button {
+  margin-left: 110%;
+  margin-top: -18%;
+  width: 30%;
+}
+
+.hackathons-list {
+  width: 16%;
+
+  height: auto;
+  float: left;
+  margin-left: 7%;
+}
+
+.hackathon {
+  width: 100%;
+  margin-left: 6%;
+}
+
+.hackathons-list img {
+  margin-left: 6%;
+  margin-top: 6%;
+}
+
+.hackathon-info {
+  color: white;
+  /*text-align: center;*/
+  margin-left: 6%;
+  width: 90%;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.general_pagination {
+  margin-top: 45%;
+  margin-left: 50%;
+}
+
+.empty-admin {
+  color: white;
+  margin-left: 40%;
+  margin-top: 10%;
+}

@@ -1,0 +1,36 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: open-hack
+ datasource:
+   driverClassName: com.mysql.cj.jdbc.Driver
+   url: jdbc:mysql://localhost/cmpe275?serverTimezone=America/Los_Angeles
+   username: root
+   password: root
+  jpa:
+    hibernate.ddl-auto: validate
+    generate-ddl: true
+    show-sql: true
+  flyway:
+    schemas: ["cmpe275"]
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: 
+    password: 
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+app:
+  jwtSecret: JWTSuperSecretKey
+  jwtExpirationInMs: 604800000
+amazonProperties:
+  endpointUrl: 
+  accessKey: 
+  secretKey: 
+  bucketName: 
+
